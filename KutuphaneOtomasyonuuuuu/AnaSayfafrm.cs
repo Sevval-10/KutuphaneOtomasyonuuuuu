@@ -16,5 +16,11 @@ namespace KutuphaneOtomasyonuuuuu
         {
             InitializeComponent();
         }
+
+        private void btnUyeEkle_Click(object sender, EventArgs e)
+        {
+            UyeEklefrm uyeekle=new UyeEklefrm();
+            uyeekle.ShowDialog();
+        }
     }
 }

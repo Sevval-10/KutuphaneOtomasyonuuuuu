@@ -102,6 +102,9 @@
             // comboCinsiyet
             // 
             this.comboCinsiyet.FormattingEnabled = true;
+            this.comboCinsiyet.Items.AddRange(new object[] {
+            "Erkek",
+            "Kadın"});
             this.comboCinsiyet.Location = new System.Drawing.Point(203, 180);
             this.comboCinsiyet.Name = "comboCinsiyet";
             this.comboCinsiyet.Size = new System.Drawing.Size(298, 24);

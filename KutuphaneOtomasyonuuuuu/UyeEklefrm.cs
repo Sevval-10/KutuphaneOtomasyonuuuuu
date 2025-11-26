@@ -17,7 +17,7 @@ namespace KutuphaneOtomasyonuuuuu
         {
             InitializeComponent();
         }
-        SqlConnection baglanti=new SqlConnection("Data Source=DESKTOP-6SCKJNF;Initial Catalog=KütüphaneOtomasyonu;Integrated Security=True;Encrypt=True;Trust Server Certificate=True");
+        SqlConnection baglanti=new SqlConnection("Data Source=DESKTOP-6SCKJNF;Initial Catalog=KütüphaneOtomasyonu;Integrated Security=True;Encrypt=True;TrustServerCertificate=True");
         private void btnİptal_Click(object sender, EventArgs e)
         {
             this .Close();
@@ -35,6 +35,21 @@ namespace KutuphaneOtomasyonuuuuu
             komut.Parameters.AddWithValue("@adres",txtAdres.Text);
             komut.Parameters.AddWithValue("@email",txtEmail.Text);
             komut.Parameters.AddWithValue("@okukitapsayisi",txtOkunanSayi.Text);
+            komut.ExecuteNonQuery();
+            baglanti.Close();
+            MessageBox.Show("Üye Kaydı Yapıldı");
+            foreach (Control item in Controls) 
+            {
+                if (item is TextBox)
+                {
+                    if (item!=txtOkunanSayi)
+                    {
+                        item.Text = "";
+                    }
+                   
+                }
+
+            }
 
 
         }

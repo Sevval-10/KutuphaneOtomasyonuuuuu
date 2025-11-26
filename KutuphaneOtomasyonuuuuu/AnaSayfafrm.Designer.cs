@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.btnUyeEkle = new System.Windows.Forms.Button();
             this.btnUyeListele = new System.Windows.Forms.Button();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btnKitapEkle = new System.Windows.Forms.Button();
             this.btnKitapListele = new System.Windows.Forms.Button();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.btnEmanetVer = new System.Windows.Forms.Button();
             this.btnEmanetListele = new System.Windows.Forms.Button();
             this.btnEmanetİade = new System.Windows.Forms.Button();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.btnSiralama = new System.Windows.Forms.Button();
             this.btnGrafik = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
@@ -58,40 +58,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Üye İşlemleri";
             // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.btnKitapEkle);
-            this.groupBox2.Controls.Add(this.btnKitapListele);
-            this.groupBox2.Location = new System.Drawing.Point(886, 28);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(484, 193);
-            this.groupBox2.TabIndex = 0;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Kitap İşlemleri";
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.btnEmanetVer);
-            this.groupBox3.Controls.Add(this.btnEmanetListele);
-            this.groupBox3.Controls.Add(this.btnEmanetİade);
-            this.groupBox3.Location = new System.Drawing.Point(77, 269);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(484, 193);
-            this.groupBox3.TabIndex = 0;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Emanet Kitap İşlemleri";
-            // 
-            // groupBox4
-            // 
-            this.groupBox4.Controls.Add(this.btnSiralama);
-            this.groupBox4.Controls.Add(this.btnGrafik);
-            this.groupBox4.Location = new System.Drawing.Point(886, 269);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(484, 193);
-            this.groupBox4.TabIndex = 0;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Sıralama ve Grafikler";
-            // 
             // btnUyeEkle
             // 
             this.btnUyeEkle.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -101,6 +67,7 @@
             this.btnUyeEkle.TabIndex = 1;
             this.btnUyeEkle.Text = "Üye Ekleme İşlemleri";
             this.btnUyeEkle.UseVisualStyleBackColor = true;
+            this.btnUyeEkle.Click += new System.EventHandler(this.btnUyeEkle_Click);
             // 
             // btnUyeListele
             // 
@@ -111,6 +78,17 @@
             this.btnUyeListele.TabIndex = 2;
             this.btnUyeListele.Text = "Üye Listeleme İşlemleri";
             this.btnUyeListele.UseVisualStyleBackColor = true;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.btnKitapEkle);
+            this.groupBox2.Controls.Add(this.btnKitapListele);
+            this.groupBox2.Location = new System.Drawing.Point(886, 28);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(484, 193);
+            this.groupBox2.TabIndex = 0;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Kitap İşlemleri";
             // 
             // btnKitapEkle
             // 
@@ -131,6 +109,18 @@
             this.btnKitapListele.TabIndex = 4;
             this.btnKitapListele.Text = "Kitap Listeleme İşlemleri";
             this.btnKitapListele.UseVisualStyleBackColor = true;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.btnEmanetVer);
+            this.groupBox3.Controls.Add(this.btnEmanetListele);
+            this.groupBox3.Controls.Add(this.btnEmanetİade);
+            this.groupBox3.Location = new System.Drawing.Point(77, 269);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(484, 193);
+            this.groupBox3.TabIndex = 0;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Emanet Kitap İşlemleri";
             // 
             // btnEmanetVer
             // 
@@ -161,6 +151,17 @@
             this.btnEmanetİade.TabIndex = 7;
             this.btnEmanetİade.Text = "Emanet Kitap İade İşlemleri";
             this.btnEmanetİade.UseVisualStyleBackColor = true;
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.btnSiralama);
+            this.groupBox4.Controls.Add(this.btnGrafik);
+            this.groupBox4.Location = new System.Drawing.Point(886, 269);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(484, 193);
+            this.groupBox4.TabIndex = 0;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Sıralama ve Grafikler";
             // 
             // btnSiralama
             // 
