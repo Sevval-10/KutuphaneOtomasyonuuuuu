@@ -19,20 +19,26 @@ namespace KutuphaneOtomasyonuuuuu
 
         private void btnUyeEkle_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
-            UyeEklefrm uyeekle = new UyeEklefrm();
+            UyeEklefrm uyeekle=new UyeEklefrm();
             uyeekle.ShowDialog();
         }
 
         private void btnUyeListele_Click(object sender, EventArgs e)
         {
-            UyeListelemefrm uyeliste=new UyeListelemefrm();
-           uyeliste.ShowDialog();
+            UyeListelemefrm uyeListele=new UyeListelemefrm();
+            uyeListele.ShowDialog();
         }
-=======
-            UyeEklefrm uyeekle=new UyeEklefrm();
-            uyeekle.ShowDialog();
+
+        private void btnKitapEkle_Click(object sender, EventArgs e)
+        {
+            KitapEklefrm kitapekle=new KitapEklefrm();
+            kitapekle.ShowDialog();
         }
->>>>>>> 8a7dd2eb5b8e9b08b0fab91f47d25e8754ec62fc
+
+        private void btnKitapListele_Click(object sender, EventArgs e)
+        {
+            KitapListelefrm kitaplistele=new KitapListelefrm();
+            kitaplistele.ShowDialog();
+        }
     }
 }
