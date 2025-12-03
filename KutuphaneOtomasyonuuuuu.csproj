@@ -35,7 +35,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -53,30 +52,6 @@
     <Compile Include="AnaSayfafrm.Designer.cs">
       <DependentUpon>AnaSayfafrm.cs</DependentUpon>
     </Compile>
-    <Compile Include="EmanetKitapListelefrm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="EmanetKitapListelefrm.Designer.cs">
-      <DependentUpon>EmanetKitapListelefrm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="EmanetKitapVerfrm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="EmanetKitapVerfrm.Designer.cs">
-      <DependentUpon>EmanetKitapVerfrm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="EmanetKitapİadefrm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="EmanetKitapİadefrm.Designer.cs">
-      <DependentUpon>EmanetKitapİadefrm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Grafikfrm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Grafikfrm.Designer.cs">
-      <DependentUpon>Grafikfrm.cs</DependentUpon>
-    </Compile>
     <Compile Include="KitapEklefrm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,12 +66,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Sıralamafrm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Sıralamafrm.Designer.cs">
-      <DependentUpon>Sıralamafrm.cs</DependentUpon>
-    </Compile>
     <Compile Include="UyeEklefrm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,18 +80,6 @@
     </Compile>
     <EmbeddedResource Include="AnaSayfafrm.resx">
       <DependentUpon>AnaSayfafrm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="EmanetKitapListelefrm.resx">
-      <DependentUpon>EmanetKitapListelefrm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="EmanetKitapVerfrm.resx">
-      <DependentUpon>EmanetKitapVerfrm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="EmanetKitapİadefrm.resx">
-      <DependentUpon>EmanetKitapİadefrm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Grafikfrm.resx">
-      <DependentUpon>Grafikfrm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="KitapEklefrm.resx">
       <DependentUpon>KitapEklefrm.cs</DependentUpon>
@@ -139,9 +96,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Sıralamafrm.resx">
-      <DependentUpon>Sıralamafrm.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="UyeEklefrm.resx">
       <DependentUpon>UyeEklefrm.cs</DependentUpon>
     </EmbeddedResource>
