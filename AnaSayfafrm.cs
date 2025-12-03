@@ -40,5 +40,35 @@ namespace KutuphaneOtomasyonuuuuu
             KitapListelefrm kitaplistele=new KitapListelefrm();
             kitaplistele.ShowDialog();
         }
+
+        private void btnEmanetVer_Click(object sender, EventArgs e)
+        {
+            EmanetKitapVerfrm emanetkitapver = new EmanetKitapVerfrm();
+            emanetkitapver.ShowDialog();
+        }
+
+        private void btnEmanetListele_Click(object sender, EventArgs e)
+        {
+            EmanetKitapListelefrm listele = new EmanetKitapListelefrm();
+            listele.ShowDialog();
+        }
+
+        private void btnEmanetİade_Click(object sender, EventArgs e)
+        {
+            EmanetKitapİadefrm iade = new EmanetKitapİadefrm();
+            iade.ShowDialog();
+        }
+
+        private void btnSiralama_Click(object sender, EventArgs e)
+        {
+            Sıralamafrm sırala = new Sıralamafrm();
+            sırala.ShowDialog();
+        }
+
+        private void btnGrafik_Click(object sender, EventArgs e)
+        {
+            Grafikfrm  grafik = new Grafikfrm();
+            grafik.ShowDialog();
+        }
     }
 }

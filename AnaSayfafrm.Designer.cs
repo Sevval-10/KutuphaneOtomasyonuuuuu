@@ -134,6 +134,7 @@
             this.btnEmanetVer.TabIndex = 5;
             this.btnEmanetVer.Text = "Emanet Kitap Verme İşlemleri";
             this.btnEmanetVer.UseVisualStyleBackColor = true;
+            this.btnEmanetVer.Click += new System.EventHandler(this.btnEmanetVer_Click);
             // 
             // btnEmanetListele
             // 
@@ -144,6 +145,7 @@
             this.btnEmanetListele.TabIndex = 6;
             this.btnEmanetListele.Text = "Emanet Kitap Listeleme İşlemleri";
             this.btnEmanetListele.UseVisualStyleBackColor = true;
+            this.btnEmanetListele.Click += new System.EventHandler(this.btnEmanetListele_Click);
             // 
             // btnEmanetİade
             // 
@@ -154,6 +156,7 @@
             this.btnEmanetİade.TabIndex = 7;
             this.btnEmanetİade.Text = "Emanet Kitap İade İşlemleri";
             this.btnEmanetİade.UseVisualStyleBackColor = true;
+            this.btnEmanetİade.Click += new System.EventHandler(this.btnEmanetİade_Click);
             // 
             // groupBox4
             // 
@@ -175,6 +178,7 @@
             this.btnSiralama.TabIndex = 8;
             this.btnSiralama.Text = "Sıralama";
             this.btnSiralama.UseVisualStyleBackColor = true;
+            this.btnSiralama.Click += new System.EventHandler(this.btnSiralama_Click);
             // 
             // btnGrafik
             // 
@@ -185,6 +189,7 @@
             this.btnGrafik.TabIndex = 9;
             this.btnGrafik.Text = "Grafikler";
             this.btnGrafik.UseVisualStyleBackColor = true;
+            this.btnGrafik.Click += new System.EventHandler(this.btnGrafik_Click);
             // 
             // AnaSayfafrm
             // 
