@@ -29,27 +29,27 @@
         private void InitializeComponent()
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btnİptal = new System.Windows.Forms.Button();
-            this.comboCinsiyet = new System.Windows.Forms.ComboBox();
-            this.txtOkunanSayi = new System.Windows.Forms.TextBox();
-            this.txtEmail = new System.Windows.Forms.TextBox();
-            this.txtAdres = new System.Windows.Forms.TextBox();
-            this.txtTelefon = new System.Windows.Forms.TextBox();
-            this.txtYas = new System.Windows.Forms.TextBox();
-            this.txtAdSoyad = new System.Windows.Forms.TextBox();
-            this.txtTc = new System.Windows.Forms.TextBox();
-            this.txtAraTc = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.btnSil = new System.Windows.Forms.Button();
-            this.btnGuncelle = new System.Windows.Forms.Button();
+            this.btnGuncelle = new MaterialSkin.Controls.MaterialButton();
+            this.btnİptal = new MaterialSkin.Controls.MaterialButton();
+            this.btnSil = new MaterialSkin.Controls.MaterialButton();
+            this.comboCinsiyet = new MaterialSkin.Controls.MaterialComboBox();
+            this.txtTc = new MaterialSkin.Controls.MaterialTextBox();
+            this.txtAdSoyad = new MaterialSkin.Controls.MaterialTextBox();
+            this.txtYas = new MaterialSkin.Controls.MaterialTextBox();
+            this.txtTelefon = new MaterialSkin.Controls.MaterialTextBox();
+            this.txtAdres = new MaterialSkin.Controls.MaterialTextBox();
+            this.txtEmail = new MaterialSkin.Controls.MaterialTextBox();
+            this.txtOkunanSayi = new MaterialSkin.Controls.MaterialTextBox();
+            this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel4 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel5 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel6 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel7 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel8 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel9 = new MaterialSkin.Controls.MaterialLabel();
+            this.txtAraTc = new MaterialSkin.Controls.MaterialTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -57,7 +57,7 @@
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(436, 72);
+            this.dataGridView1.Location = new System.Drawing.Point(462, 189);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
@@ -65,207 +65,353 @@
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellDoubleClick);
             // 
-            // label8
+            // btnGuncelle
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(22, 363);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(97, 16);
-            this.label8.TabIndex = 35;
-            this.label8.Text = "Oku. Kitap Sayı";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(74, 325);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(45, 16);
-            this.label7.TabIndex = 34;
-            this.label7.Text = "E-mail";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(76, 287);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(43, 16);
-            this.label6.TabIndex = 33;
-            this.label6.Text = "Adres";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(66, 249);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(53, 16);
-            this.label5.TabIndex = 32;
-            this.label5.Text = "Telefon";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(65, 211);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(54, 16);
-            this.label4.TabIndex = 31;
-            this.label4.Text = "Cinsiyet";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(88, 171);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(31, 16);
-            this.label3.TabIndex = 30;
-            this.label3.Text = "Yaş";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(52, 133);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 16);
-            this.label2.TabIndex = 29;
-            this.label2.Text = "Ad Soyad";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(94, 95);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(25, 16);
-            this.label1.TabIndex = 28;
-            this.label1.Text = "TC";
+            this.btnGuncelle.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnGuncelle.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btnGuncelle.Depth = 0;
+            this.btnGuncelle.HighEmphasis = true;
+            this.btnGuncelle.Icon = null;
+            this.btnGuncelle.Location = new System.Drawing.Point(187, 593);
+            this.btnGuncelle.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btnGuncelle.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnGuncelle.Name = "btnGuncelle";
+            this.btnGuncelle.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btnGuncelle.Size = new System.Drawing.Size(94, 36);
+            this.btnGuncelle.TabIndex = 40;
+            this.btnGuncelle.Text = "Güncelle";
+            this.btnGuncelle.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btnGuncelle.UseAccentColor = false;
+            this.btnGuncelle.UseVisualStyleBackColor = true;
+            this.btnGuncelle.Click += new System.EventHandler(this.btnGuncelle_Click_1);
             // 
             // btnİptal
             // 
-            this.btnİptal.Location = new System.Drawing.Point(287, 407);
+            this.btnİptal.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnİptal.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btnİptal.Depth = 0;
+            this.btnİptal.HighEmphasis = true;
+            this.btnİptal.Icon = null;
+            this.btnİptal.Location = new System.Drawing.Point(313, 593);
+            this.btnİptal.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btnİptal.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnİptal.Name = "btnİptal";
-            this.btnİptal.Size = new System.Drawing.Size(75, 23);
-            this.btnİptal.TabIndex = 27;
+            this.btnİptal.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btnİptal.Size = new System.Drawing.Size(64, 36);
+            this.btnİptal.TabIndex = 41;
             this.btnİptal.Text = "İptal";
+            this.btnİptal.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btnİptal.UseAccentColor = false;
             this.btnİptal.UseVisualStyleBackColor = true;
-            this.btnİptal.Click += new System.EventHandler(this.btnİptal_Click);
-            // 
-            // comboCinsiyet
-            // 
-            this.comboCinsiyet.FormattingEnabled = true;
-            this.comboCinsiyet.Items.AddRange(new object[] {
-            "Erkek",
-            "Kadın"});
-            this.comboCinsiyet.Location = new System.Drawing.Point(132, 203);
-            this.comboCinsiyet.Name = "comboCinsiyet";
-            this.comboCinsiyet.Size = new System.Drawing.Size(298, 24);
-            this.comboCinsiyet.TabIndex = 25;
-            // 
-            // txtOkunanSayi
-            // 
-            this.txtOkunanSayi.Location = new System.Drawing.Point(132, 357);
-            this.txtOkunanSayi.Name = "txtOkunanSayi";
-            this.txtOkunanSayi.Size = new System.Drawing.Size(277, 22);
-            this.txtOkunanSayi.TabIndex = 24;
-            this.txtOkunanSayi.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txtEmail
-            // 
-            this.txtEmail.Location = new System.Drawing.Point(132, 319);
-            this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(277, 22);
-            this.txtEmail.TabIndex = 23;
-            // 
-            // txtAdres
-            // 
-            this.txtAdres.Location = new System.Drawing.Point(132, 281);
-            this.txtAdres.Name = "txtAdres";
-            this.txtAdres.Size = new System.Drawing.Size(277, 22);
-            this.txtAdres.TabIndex = 22;
-            // 
-            // txtTelefon
-            // 
-            this.txtTelefon.Location = new System.Drawing.Point(132, 243);
-            this.txtTelefon.Name = "txtTelefon";
-            this.txtTelefon.Size = new System.Drawing.Size(277, 22);
-            this.txtTelefon.TabIndex = 21;
-            // 
-            // txtYas
-            // 
-            this.txtYas.Location = new System.Drawing.Point(132, 165);
-            this.txtYas.Name = "txtYas";
-            this.txtYas.Size = new System.Drawing.Size(277, 22);
-            this.txtYas.TabIndex = 20;
-            // 
-            // txtAdSoyad
-            // 
-            this.txtAdSoyad.Location = new System.Drawing.Point(132, 127);
-            this.txtAdSoyad.Name = "txtAdSoyad";
-            this.txtAdSoyad.Size = new System.Drawing.Size(277, 22);
-            this.txtAdSoyad.TabIndex = 19;
-            // 
-            // txtTc
-            // 
-            this.txtTc.Location = new System.Drawing.Point(132, 89);
-            this.txtTc.Name = "txtTc";
-            this.txtTc.Size = new System.Drawing.Size(277, 22);
-            this.txtTc.TabIndex = 18;
-            this.txtTc.TextChanged += new System.EventHandler(this.txtTc_TextChanged);
-            // 
-            // txtAraTc
-            // 
-            this.txtAraTc.Location = new System.Drawing.Point(620, 33);
-            this.txtAraTc.Name = "txtAraTc";
-            this.txtAraTc.Size = new System.Drawing.Size(277, 22);
-            this.txtAraTc.TabIndex = 36;
-            this.txtAraTc.TextChanged += new System.EventHandler(this.txtAraTc_TextChanged);
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(565, 36);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(49, 16);
-            this.label9.TabIndex = 37;
-            this.label9.Text = "TC Ara";
+            this.btnİptal.Click += new System.EventHandler(this.btnİptal_Click_1);
             // 
             // btnSil
             // 
-            this.btnSil.Location = new System.Drawing.Point(1088, 72);
+            this.btnSil.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnSil.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btnSil.Depth = 0;
+            this.btnSil.HighEmphasis = true;
+            this.btnSil.Icon = null;
+            this.btnSil.Location = new System.Drawing.Point(1066, 126);
+            this.btnSil.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btnSil.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnSil.Name = "btnSil";
-            this.btnSil.Size = new System.Drawing.Size(75, 23);
-            this.btnSil.TabIndex = 38;
+            this.btnSil.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btnSil.Size = new System.Drawing.Size(64, 36);
+            this.btnSil.TabIndex = 42;
             this.btnSil.Text = "Sil";
+            this.btnSil.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btnSil.UseAccentColor = false;
             this.btnSil.UseVisualStyleBackColor = true;
-            this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
+            this.btnSil.Click += new System.EventHandler(this.btnSil_Click_1);
             // 
-            // btnGuncelle
+            // comboCinsiyet
             // 
-            this.btnGuncelle.Location = new System.Drawing.Point(159, 407);
-            this.btnGuncelle.Name = "btnGuncelle";
-            this.btnGuncelle.Size = new System.Drawing.Size(96, 23);
-            this.btnGuncelle.TabIndex = 39;
-            this.btnGuncelle.Text = "Güncelle";
-            this.btnGuncelle.UseVisualStyleBackColor = true;
-            this.btnGuncelle.Click += new System.EventHandler(this.btnGuncelle_Click);
+            this.comboCinsiyet.AutoResize = false;
+            this.comboCinsiyet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.comboCinsiyet.Depth = 0;
+            this.comboCinsiyet.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
+            this.comboCinsiyet.DropDownHeight = 174;
+            this.comboCinsiyet.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboCinsiyet.DropDownWidth = 121;
+            this.comboCinsiyet.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.comboCinsiyet.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.comboCinsiyet.FormattingEnabled = true;
+            this.comboCinsiyet.IntegralHeight = false;
+            this.comboCinsiyet.ItemHeight = 43;
+            this.comboCinsiyet.Items.AddRange(new object[] {
+            "Erkek",
+            "Kadın"});
+            this.comboCinsiyet.Location = new System.Drawing.Point(164, 286);
+            this.comboCinsiyet.MaxDropDownItems = 4;
+            this.comboCinsiyet.MouseState = MaterialSkin.MouseState.OUT;
+            this.comboCinsiyet.Name = "comboCinsiyet";
+            this.comboCinsiyet.Size = new System.Drawing.Size(250, 49);
+            this.comboCinsiyet.StartIndex = 0;
+            this.comboCinsiyet.TabIndex = 43;
+            // 
+            // txtTc
+            // 
+            this.txtTc.AnimateReadOnly = false;
+            this.txtTc.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtTc.Depth = 0;
+            this.txtTc.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txtTc.LeadingIcon = null;
+            this.txtTc.Location = new System.Drawing.Point(164, 112);
+            this.txtTc.MaxLength = 50;
+            this.txtTc.MouseState = MaterialSkin.MouseState.OUT;
+            this.txtTc.Multiline = false;
+            this.txtTc.Name = "txtTc";
+            this.txtTc.Size = new System.Drawing.Size(250, 50);
+            this.txtTc.TabIndex = 44;
+            this.txtTc.Text = "";
+            this.txtTc.TrailingIcon = null;
+            this.txtTc.TextChanged += new System.EventHandler(this.txtTc_TextChanged);
+            // 
+            // txtAdSoyad
+            // 
+            this.txtAdSoyad.AnimateReadOnly = false;
+            this.txtAdSoyad.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtAdSoyad.Depth = 0;
+            this.txtAdSoyad.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txtAdSoyad.LeadingIcon = null;
+            this.txtAdSoyad.Location = new System.Drawing.Point(164, 170);
+            this.txtAdSoyad.MaxLength = 50;
+            this.txtAdSoyad.MouseState = MaterialSkin.MouseState.OUT;
+            this.txtAdSoyad.Multiline = false;
+            this.txtAdSoyad.Name = "txtAdSoyad";
+            this.txtAdSoyad.Size = new System.Drawing.Size(250, 50);
+            this.txtAdSoyad.TabIndex = 45;
+            this.txtAdSoyad.Text = "";
+            this.txtAdSoyad.TrailingIcon = null;
+            // 
+            // txtYas
+            // 
+            this.txtYas.AnimateReadOnly = false;
+            this.txtYas.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtYas.Depth = 0;
+            this.txtYas.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txtYas.LeadingIcon = null;
+            this.txtYas.Location = new System.Drawing.Point(164, 228);
+            this.txtYas.MaxLength = 50;
+            this.txtYas.MouseState = MaterialSkin.MouseState.OUT;
+            this.txtYas.Multiline = false;
+            this.txtYas.Name = "txtYas";
+            this.txtYas.Size = new System.Drawing.Size(250, 50);
+            this.txtYas.TabIndex = 46;
+            this.txtYas.Text = "";
+            this.txtYas.TrailingIcon = null;
+            // 
+            // txtTelefon
+            // 
+            this.txtTelefon.AnimateReadOnly = false;
+            this.txtTelefon.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtTelefon.Depth = 0;
+            this.txtTelefon.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txtTelefon.LeadingIcon = null;
+            this.txtTelefon.Location = new System.Drawing.Point(164, 343);
+            this.txtTelefon.MaxLength = 50;
+            this.txtTelefon.MouseState = MaterialSkin.MouseState.OUT;
+            this.txtTelefon.Multiline = false;
+            this.txtTelefon.Name = "txtTelefon";
+            this.txtTelefon.Size = new System.Drawing.Size(250, 50);
+            this.txtTelefon.TabIndex = 47;
+            this.txtTelefon.Text = "";
+            this.txtTelefon.TrailingIcon = null;
+            // 
+            // txtAdres
+            // 
+            this.txtAdres.AnimateReadOnly = false;
+            this.txtAdres.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtAdres.Depth = 0;
+            this.txtAdres.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txtAdres.LeadingIcon = null;
+            this.txtAdres.Location = new System.Drawing.Point(164, 401);
+            this.txtAdres.MaxLength = 50;
+            this.txtAdres.MouseState = MaterialSkin.MouseState.OUT;
+            this.txtAdres.Multiline = false;
+            this.txtAdres.Name = "txtAdres";
+            this.txtAdres.Size = new System.Drawing.Size(250, 50);
+            this.txtAdres.TabIndex = 48;
+            this.txtAdres.Text = "";
+            this.txtAdres.TrailingIcon = null;
+            // 
+            // txtEmail
+            // 
+            this.txtEmail.AnimateReadOnly = false;
+            this.txtEmail.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtEmail.Depth = 0;
+            this.txtEmail.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txtEmail.LeadingIcon = null;
+            this.txtEmail.Location = new System.Drawing.Point(164, 459);
+            this.txtEmail.MaxLength = 50;
+            this.txtEmail.MouseState = MaterialSkin.MouseState.OUT;
+            this.txtEmail.Multiline = false;
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(250, 50);
+            this.txtEmail.TabIndex = 49;
+            this.txtEmail.Text = "";
+            this.txtEmail.TrailingIcon = null;
+            // 
+            // txtOkunanSayi
+            // 
+            this.txtOkunanSayi.AnimateReadOnly = false;
+            this.txtOkunanSayi.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtOkunanSayi.Depth = 0;
+            this.txtOkunanSayi.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txtOkunanSayi.LeadingIcon = null;
+            this.txtOkunanSayi.Location = new System.Drawing.Point(164, 517);
+            this.txtOkunanSayi.MaxLength = 50;
+            this.txtOkunanSayi.MouseState = MaterialSkin.MouseState.OUT;
+            this.txtOkunanSayi.Multiline = false;
+            this.txtOkunanSayi.Name = "txtOkunanSayi";
+            this.txtOkunanSayi.Size = new System.Drawing.Size(250, 50);
+            this.txtOkunanSayi.TabIndex = 50;
+            this.txtOkunanSayi.Text = "";
+            this.txtOkunanSayi.TrailingIcon = null;
+            // 
+            // materialLabel1
+            // 
+            this.materialLabel1.AutoSize = true;
+            this.materialLabel1.Depth = 0;
+            this.materialLabel1.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel1.Location = new System.Drawing.Point(99, 129);
+            this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel1.Name = "materialLabel1";
+            this.materialLabel1.Size = new System.Drawing.Size(21, 19);
+            this.materialLabel1.TabIndex = 51;
+            this.materialLabel1.Text = "TC";
+            // 
+            // materialLabel2
+            // 
+            this.materialLabel2.AutoSize = true;
+            this.materialLabel2.Depth = 0;
+            this.materialLabel2.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel2.Location = new System.Drawing.Point(51, 186);
+            this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel2.Name = "materialLabel2";
+            this.materialLabel2.Size = new System.Drawing.Size(69, 19);
+            this.materialLabel2.TabIndex = 52;
+            this.materialLabel2.Text = "Ad Soyad";
+            // 
+            // materialLabel3
+            // 
+            this.materialLabel3.AutoSize = true;
+            this.materialLabel3.Depth = 0;
+            this.materialLabel3.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel3.Location = new System.Drawing.Point(92, 243);
+            this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel3.Name = "materialLabel3";
+            this.materialLabel3.Size = new System.Drawing.Size(28, 19);
+            this.materialLabel3.TabIndex = 53;
+            this.materialLabel3.Text = "Yaş";
+            // 
+            // materialLabel4
+            // 
+            this.materialLabel4.AutoSize = true;
+            this.materialLabel4.Depth = 0;
+            this.materialLabel4.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel4.Location = new System.Drawing.Point(63, 300);
+            this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel4.Name = "materialLabel4";
+            this.materialLabel4.Size = new System.Drawing.Size(57, 19);
+            this.materialLabel4.TabIndex = 54;
+            this.materialLabel4.Text = "Cinsiyet";
+            // 
+            // materialLabel5
+            // 
+            this.materialLabel5.AutoSize = true;
+            this.materialLabel5.Depth = 0;
+            this.materialLabel5.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel5.Location = new System.Drawing.Point(65, 357);
+            this.materialLabel5.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel5.Name = "materialLabel5";
+            this.materialLabel5.Size = new System.Drawing.Size(55, 19);
+            this.materialLabel5.TabIndex = 55;
+            this.materialLabel5.Text = "Telefon";
+            // 
+            // materialLabel6
+            // 
+            this.materialLabel6.AutoSize = true;
+            this.materialLabel6.Depth = 0;
+            this.materialLabel6.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel6.Location = new System.Drawing.Point(79, 417);
+            this.materialLabel6.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel6.Name = "materialLabel6";
+            this.materialLabel6.Size = new System.Drawing.Size(41, 19);
+            this.materialLabel6.TabIndex = 56;
+            this.materialLabel6.Text = "Adres";
+            // 
+            // materialLabel7
+            // 
+            this.materialLabel7.AutoSize = true;
+            this.materialLabel7.Depth = 0;
+            this.materialLabel7.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel7.Location = new System.Drawing.Point(75, 471);
+            this.materialLabel7.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel7.Name = "materialLabel7";
+            this.materialLabel7.Size = new System.Drawing.Size(45, 19);
+            this.materialLabel7.TabIndex = 57;
+            this.materialLabel7.Text = "E-mail";
+            // 
+            // materialLabel8
+            // 
+            this.materialLabel8.AutoSize = true;
+            this.materialLabel8.Depth = 0;
+            this.materialLabel8.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel8.Location = new System.Drawing.Point(11, 539);
+            this.materialLabel8.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel8.Name = "materialLabel8";
+            this.materialLabel8.Size = new System.Drawing.Size(109, 19);
+            this.materialLabel8.TabIndex = 58;
+            this.materialLabel8.Text = "Oku. Kitap Sayı";
+            // 
+            // materialLabel9
+            // 
+            this.materialLabel9.AutoSize = true;
+            this.materialLabel9.Depth = 0;
+            this.materialLabel9.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel9.Location = new System.Drawing.Point(580, 133);
+            this.materialLabel9.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel9.Name = "materialLabel9";
+            this.materialLabel9.Size = new System.Drawing.Size(49, 19);
+            this.materialLabel9.TabIndex = 59;
+            this.materialLabel9.Text = "TC Ara";
+            // 
+            // txtAraTc
+            // 
+            this.txtAraTc.AnimateReadOnly = false;
+            this.txtAraTc.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtAraTc.Depth = 0;
+            this.txtAraTc.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txtAraTc.LeadingIcon = null;
+            this.txtAraTc.Location = new System.Drawing.Point(654, 119);
+            this.txtAraTc.MaxLength = 50;
+            this.txtAraTc.MouseState = MaterialSkin.MouseState.OUT;
+            this.txtAraTc.Multiline = false;
+            this.txtAraTc.Name = "txtAraTc";
+            this.txtAraTc.Size = new System.Drawing.Size(390, 50);
+            this.txtAraTc.TabIndex = 60;
+            this.txtAraTc.Text = "";
+            this.txtAraTc.TrailingIcon = null;
+            this.txtAraTc.TextChanged += new System.EventHandler(this.txtAraTc_TextChanged);
             // 
             // UyeListelemefrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(1175, 530);
-            this.Controls.Add(this.btnGuncelle);
-            this.Controls.Add(this.btnSil);
-            this.Controls.Add(this.label9);
+            this.ClientSize = new System.Drawing.Size(1201, 685);
             this.Controls.Add(this.txtAraTc);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnİptal);
-            this.Controls.Add(this.comboCinsiyet);
+            this.Controls.Add(this.materialLabel9);
+            this.Controls.Add(this.materialLabel8);
+            this.Controls.Add(this.materialLabel7);
+            this.Controls.Add(this.materialLabel6);
+            this.Controls.Add(this.materialLabel5);
+            this.Controls.Add(this.materialLabel4);
+            this.Controls.Add(this.materialLabel3);
+            this.Controls.Add(this.materialLabel2);
+            this.Controls.Add(this.materialLabel1);
             this.Controls.Add(this.txtOkunanSayi);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.txtAdres);
@@ -273,6 +419,10 @@
             this.Controls.Add(this.txtYas);
             this.Controls.Add(this.txtAdSoyad);
             this.Controls.Add(this.txtTc);
+            this.Controls.Add(this.comboCinsiyet);
+            this.Controls.Add(this.btnSil);
+            this.Controls.Add(this.btnİptal);
+            this.Controls.Add(this.btnGuncelle);
             this.Controls.Add(this.dataGridView1);
             this.Name = "UyeListelemefrm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -287,26 +437,26 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btnİptal;
-        private System.Windows.Forms.ComboBox comboCinsiyet;
-        private System.Windows.Forms.TextBox txtOkunanSayi;
-        private System.Windows.Forms.TextBox txtEmail;
-        private System.Windows.Forms.TextBox txtAdres;
-        private System.Windows.Forms.TextBox txtTelefon;
-        private System.Windows.Forms.TextBox txtYas;
-        private System.Windows.Forms.TextBox txtAdSoyad;
-        private System.Windows.Forms.TextBox txtTc;
-        private System.Windows.Forms.TextBox txtAraTc;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Button btnSil;
-        private System.Windows.Forms.Button btnGuncelle;
+        private MaterialSkin.Controls.MaterialButton btnGuncelle;
+        private MaterialSkin.Controls.MaterialButton btnİptal;
+        private MaterialSkin.Controls.MaterialButton btnSil;
+        private MaterialSkin.Controls.MaterialComboBox comboCinsiyet;
+        private MaterialSkin.Controls.MaterialTextBox txtTc;
+        private MaterialSkin.Controls.MaterialTextBox txtAdSoyad;
+        private MaterialSkin.Controls.MaterialTextBox txtYas;
+        private MaterialSkin.Controls.MaterialTextBox txtTelefon;
+        private MaterialSkin.Controls.MaterialTextBox txtAdres;
+        private MaterialSkin.Controls.MaterialTextBox txtEmail;
+        private MaterialSkin.Controls.MaterialTextBox txtOkunanSayi;
+        private MaterialSkin.Controls.MaterialLabel materialLabel1;
+        private MaterialSkin.Controls.MaterialLabel materialLabel2;
+        private MaterialSkin.Controls.MaterialLabel materialLabel3;
+        private MaterialSkin.Controls.MaterialLabel materialLabel4;
+        private MaterialSkin.Controls.MaterialLabel materialLabel5;
+        private MaterialSkin.Controls.MaterialLabel materialLabel6;
+        private MaterialSkin.Controls.MaterialLabel materialLabel7;
+        private MaterialSkin.Controls.MaterialLabel materialLabel8;
+        private MaterialSkin.Controls.MaterialLabel materialLabel9;
+        private MaterialSkin.Controls.MaterialTextBox txtAraTc;
     }
 }
