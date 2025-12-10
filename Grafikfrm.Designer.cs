@@ -37,17 +37,19 @@
             // 
             // chart1
             // 
+            this.chart1.BackColor = System.Drawing.Color.LightPink;
             chartArea1.Name = "ChartArea1";
             this.chart1.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             this.chart1.Legends.Add(legend1);
-            this.chart1.Location = new System.Drawing.Point(120, 97);
+            this.chart1.Location = new System.Drawing.Point(3, 12);
             this.chart1.Name = "chart1";
+            this.chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Excel;
             series1.ChartArea = "ChartArea1";
             series1.Legend = "Legend1";
             series1.Name = "Okunan Kitap Sayısı";
             this.chart1.Series.Add(series1);
-            this.chart1.Size = new System.Drawing.Size(929, 562);
+            this.chart1.Size = new System.Drawing.Size(1346, 650);
             this.chart1.TabIndex = 0;
             this.chart1.Text = "chart1";
             // 
@@ -55,8 +57,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1130, 681);
+            this.BackColor = System.Drawing.Color.LightPink;
+            this.ClientSize = new System.Drawing.Size(1361, 707);
             this.Controls.Add(this.chart1);
             this.Name = "Grafikfrm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

@@ -28,214 +28,212 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UyeEklefrm));
-            this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel4 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel5 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel6 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel7 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel8 = new MaterialSkin.Controls.MaterialLabel();
-            this.btnUyeEkle = new MaterialSkin.Controls.MaterialButton();
-            this.btnİptal = new MaterialSkin.Controls.MaterialButton();
-            this.txtTc = new MaterialSkin.Controls.MaterialTextBox();
-            this.txtAdSoyad = new MaterialSkin.Controls.MaterialTextBox();
-            this.txtYas = new MaterialSkin.Controls.MaterialTextBox();
-            this.txtTelefon = new MaterialSkin.Controls.MaterialTextBox();
-            this.txtAdres = new MaterialSkin.Controls.MaterialTextBox();
-            this.txtEmail = new MaterialSkin.Controls.MaterialTextBox();
-            this.txtOkunanSayi = new MaterialSkin.Controls.MaterialTextBox();
-            this.comboCinsiyet = new MaterialSkin.Controls.MaterialComboBox();
+            this.txtTc = new System.Windows.Forms.TextBox();
+            this.txtAdSoyad = new System.Windows.Forms.TextBox();
+            this.txtYas = new System.Windows.Forms.TextBox();
+            this.txtTelefon = new System.Windows.Forms.TextBox();
+            this.txtAdres = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.txtOkunanSayi = new System.Windows.Forms.TextBox();
+            this.comboCinsiyet = new System.Windows.Forms.ComboBox();
+            this.btnUyeEkle = new System.Windows.Forms.Button();
+            this.btnİptal = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // materialLabel1
+            // txtTc
             // 
-            resources.ApplyResources(this.materialLabel1, "materialLabel1");
-            this.materialLabel1.Depth = 0;
-            this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel1.Name = "materialLabel1";
+            this.txtTc.Location = new System.Drawing.Point(239, 40);
+            this.txtTc.Name = "txtTc";
+            this.txtTc.Size = new System.Drawing.Size(177, 22);
+            this.txtTc.TabIndex = 0;
             // 
-            // materialLabel2
+            // txtAdSoyad
             // 
-            resources.ApplyResources(this.materialLabel2, "materialLabel2");
-            this.materialLabel2.Depth = 0;
-            this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel2.Name = "materialLabel2";
+            this.txtAdSoyad.Location = new System.Drawing.Point(239, 78);
+            this.txtAdSoyad.Name = "txtAdSoyad";
+            this.txtAdSoyad.Size = new System.Drawing.Size(177, 22);
+            this.txtAdSoyad.TabIndex = 1;
             // 
-            // materialLabel3
+            // txtYas
             // 
-            resources.ApplyResources(this.materialLabel3, "materialLabel3");
-            this.materialLabel3.Depth = 0;
-            this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel3.Name = "materialLabel3";
+            this.txtYas.Location = new System.Drawing.Point(239, 116);
+            this.txtYas.Name = "txtYas";
+            this.txtYas.Size = new System.Drawing.Size(177, 22);
+            this.txtYas.TabIndex = 2;
             // 
-            // materialLabel4
+            // txtTelefon
             // 
-            resources.ApplyResources(this.materialLabel4, "materialLabel4");
-            this.materialLabel4.Depth = 0;
-            this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel4.Name = "materialLabel4";
+            this.txtTelefon.Location = new System.Drawing.Point(239, 194);
+            this.txtTelefon.Name = "txtTelefon";
+            this.txtTelefon.Size = new System.Drawing.Size(177, 22);
+            this.txtTelefon.TabIndex = 3;
             // 
-            // materialLabel5
+            // txtAdres
             // 
-            resources.ApplyResources(this.materialLabel5, "materialLabel5");
-            this.materialLabel5.Depth = 0;
-            this.materialLabel5.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel5.Name = "materialLabel5";
+            this.txtAdres.Location = new System.Drawing.Point(239, 232);
+            this.txtAdres.Name = "txtAdres";
+            this.txtAdres.Size = new System.Drawing.Size(177, 22);
+            this.txtAdres.TabIndex = 4;
             // 
-            // materialLabel6
+            // txtEmail
             // 
-            resources.ApplyResources(this.materialLabel6, "materialLabel6");
-            this.materialLabel6.Depth = 0;
-            this.materialLabel6.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel6.Name = "materialLabel6";
+            this.txtEmail.Location = new System.Drawing.Point(239, 270);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(177, 22);
+            this.txtEmail.TabIndex = 5;
             // 
-            // materialLabel7
+            // txtOkunanSayi
             // 
-            resources.ApplyResources(this.materialLabel7, "materialLabel7");
-            this.materialLabel7.Depth = 0;
-            this.materialLabel7.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel7.Name = "materialLabel7";
+            this.txtOkunanSayi.Location = new System.Drawing.Point(239, 308);
+            this.txtOkunanSayi.Name = "txtOkunanSayi";
+            this.txtOkunanSayi.Size = new System.Drawing.Size(177, 22);
+            this.txtOkunanSayi.TabIndex = 6;
+            this.txtOkunanSayi.Text = "0";
+            this.txtOkunanSayi.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // materialLabel8
+            // comboCinsiyet
             // 
-            resources.ApplyResources(this.materialLabel8, "materialLabel8");
-            this.materialLabel8.Depth = 0;
-            this.materialLabel8.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel8.Name = "materialLabel8";
+            this.comboCinsiyet.FormattingEnabled = true;
+            this.comboCinsiyet.Items.AddRange(new object[] {
+            "Erkek",
+            "Kadın"});
+            this.comboCinsiyet.Location = new System.Drawing.Point(239, 154);
+            this.comboCinsiyet.Name = "comboCinsiyet";
+            this.comboCinsiyet.Size = new System.Drawing.Size(177, 24);
+            this.comboCinsiyet.TabIndex = 7;
             // 
             // btnUyeEkle
             // 
-            resources.ApplyResources(this.btnUyeEkle, "btnUyeEkle");
-            this.btnUyeEkle.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.btnUyeEkle.Depth = 0;
-            this.btnUyeEkle.HighEmphasis = true;
-            this.btnUyeEkle.Icon = null;
-            this.btnUyeEkle.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnUyeEkle.Location = new System.Drawing.Point(213, 351);
             this.btnUyeEkle.Name = "btnUyeEkle";
-            this.btnUyeEkle.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.btnUyeEkle.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.btnUyeEkle.UseAccentColor = false;
+            this.btnUyeEkle.Size = new System.Drawing.Size(104, 35);
+            this.btnUyeEkle.TabIndex = 8;
+            this.btnUyeEkle.Text = "Ekle";
             this.btnUyeEkle.UseVisualStyleBackColor = true;
             this.btnUyeEkle.Click += new System.EventHandler(this.btnUyeEkle_Click);
             // 
             // btnİptal
             // 
-            resources.ApplyResources(this.btnİptal, "btnİptal");
-            this.btnİptal.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.btnİptal.Depth = 0;
-            this.btnİptal.HighEmphasis = true;
-            this.btnİptal.Icon = null;
-            this.btnİptal.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnİptal.Location = new System.Drawing.Point(332, 351);
             this.btnİptal.Name = "btnİptal";
-            this.btnİptal.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.btnİptal.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.btnİptal.UseAccentColor = false;
+            this.btnİptal.Size = new System.Drawing.Size(101, 35);
+            this.btnİptal.TabIndex = 9;
+            this.btnİptal.Text = "İptal";
             this.btnİptal.UseVisualStyleBackColor = true;
             this.btnİptal.Click += new System.EventHandler(this.btnİptal_Click);
             // 
-            // txtTc
+            // label1
             // 
-            this.txtTc.AnimateReadOnly = false;
-            this.txtTc.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtTc.Depth = 0;
-            resources.ApplyResources(this.txtTc, "txtTc");
-            this.txtTc.LeadingIcon = null;
-            this.txtTc.MouseState = MaterialSkin.MouseState.OUT;
-            this.txtTc.Name = "txtTc";
-            this.txtTc.TrailingIcon = null;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label1.Location = new System.Drawing.Point(189, 40);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(31, 20);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "TC";
             // 
-            // txtAdSoyad
+            // label2
             // 
-            this.txtAdSoyad.AnimateReadOnly = false;
-            this.txtAdSoyad.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtAdSoyad.Depth = 0;
-            resources.ApplyResources(this.txtAdSoyad, "txtAdSoyad");
-            this.txtAdSoyad.LeadingIcon = null;
-            this.txtAdSoyad.MouseState = MaterialSkin.MouseState.OUT;
-            this.txtAdSoyad.Name = "txtAdSoyad";
-            this.txtAdSoyad.TrailingIcon = null;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label2.Location = new System.Drawing.Point(140, 78);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(80, 20);
+            this.label2.TabIndex = 11;
+            this.label2.Text = "Ad Soyad";
             // 
-            // txtYas
+            // label3
             // 
-            this.txtYas.AnimateReadOnly = false;
-            this.txtYas.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtYas.Depth = 0;
-            resources.ApplyResources(this.txtYas, "txtYas");
-            this.txtYas.LeadingIcon = null;
-            this.txtYas.MouseState = MaterialSkin.MouseState.OUT;
-            this.txtYas.Name = "txtYas";
-            this.txtYas.TrailingIcon = null;
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label3.Location = new System.Drawing.Point(183, 116);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(37, 20);
+            this.label3.TabIndex = 12;
+            this.label3.Text = "Yaş";
             // 
-            // txtTelefon
+            // label4
             // 
-            this.txtTelefon.AnimateReadOnly = false;
-            this.txtTelefon.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtTelefon.Depth = 0;
-            resources.ApplyResources(this.txtTelefon, "txtTelefon");
-            this.txtTelefon.LeadingIcon = null;
-            this.txtTelefon.MouseState = MaterialSkin.MouseState.OUT;
-            this.txtTelefon.Name = "txtTelefon";
-            this.txtTelefon.TrailingIcon = null;
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label4.Location = new System.Drawing.Point(151, 156);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(69, 20);
+            this.label4.TabIndex = 13;
+            this.label4.Text = "Cinsiyet";
             // 
-            // txtAdres
+            // label5
             // 
-            this.txtAdres.AnimateReadOnly = false;
-            this.txtAdres.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtAdres.Depth = 0;
-            resources.ApplyResources(this.txtAdres, "txtAdres");
-            this.txtAdres.LeadingIcon = null;
-            this.txtAdres.MouseState = MaterialSkin.MouseState.OUT;
-            this.txtAdres.Name = "txtAdres";
-            this.txtAdres.TrailingIcon = null;
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label5.Location = new System.Drawing.Point(156, 194);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(64, 20);
+            this.label5.TabIndex = 14;
+            this.label5.Text = "Telefon";
             // 
-            // txtEmail
+            // label6
             // 
-            this.txtEmail.AnimateReadOnly = false;
-            this.txtEmail.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtEmail.Depth = 0;
-            resources.ApplyResources(this.txtEmail, "txtEmail");
-            this.txtEmail.LeadingIcon = null;
-            this.txtEmail.MouseState = MaterialSkin.MouseState.OUT;
-            this.txtEmail.Name = "txtEmail";
-            this.txtEmail.TrailingIcon = null;
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label6.Location = new System.Drawing.Point(167, 232);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(53, 20);
+            this.label6.TabIndex = 15;
+            this.label6.Text = "Adres";
             // 
-            // txtOkunanSayi
+            // label7
             // 
-            this.txtOkunanSayi.AnimateReadOnly = false;
-            this.txtOkunanSayi.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtOkunanSayi.Depth = 0;
-            resources.ApplyResources(this.txtOkunanSayi, "txtOkunanSayi");
-            this.txtOkunanSayi.LeadingIcon = null;
-            this.txtOkunanSayi.MouseState = MaterialSkin.MouseState.OUT;
-            this.txtOkunanSayi.Name = "txtOkunanSayi";
-            this.txtOkunanSayi.TrailingIcon = null;
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label7.Location = new System.Drawing.Point(163, 270);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(57, 20);
+            this.label7.TabIndex = 16;
+            this.label7.Text = "E-mail";
             // 
-            // comboCinsiyet
+            // label8
             // 
-            this.comboCinsiyet.AutoResize = false;
-            this.comboCinsiyet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.comboCinsiyet.Depth = 0;
-            this.comboCinsiyet.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
-            this.comboCinsiyet.DropDownHeight = 174;
-            this.comboCinsiyet.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboCinsiyet.DropDownWidth = 121;
-            resources.ApplyResources(this.comboCinsiyet, "comboCinsiyet");
-            this.comboCinsiyet.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.comboCinsiyet.FormattingEnabled = true;
-            this.comboCinsiyet.Items.AddRange(new object[] {
-            resources.GetString("comboCinsiyet.Items"),
-            resources.GetString("comboCinsiyet.Items1")});
-            this.comboCinsiyet.MouseState = MaterialSkin.MouseState.OUT;
-            this.comboCinsiyet.Name = "comboCinsiyet";
-            this.comboCinsiyet.StartIndex = 0;
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label8.Location = new System.Drawing.Point(84, 308);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(136, 20);
+            this.label8.TabIndex = 17;
+            this.label8.Text = "Oku. Kitap Sayısı";
             // 
             // UyeEklefrm
             // 
-            resources.ApplyResources(this, "$this");
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BackColor = System.Drawing.Color.LightPink;
+            this.ClientSize = new System.Drawing.Size(681, 450);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnİptal);
+            this.Controls.Add(this.btnUyeEkle);
             this.Controls.Add(this.comboCinsiyet);
             this.Controls.Add(this.txtOkunanSayi);
             this.Controls.Add(this.txtEmail);
@@ -244,17 +242,9 @@
             this.Controls.Add(this.txtYas);
             this.Controls.Add(this.txtAdSoyad);
             this.Controls.Add(this.txtTc);
-            this.Controls.Add(this.btnİptal);
-            this.Controls.Add(this.btnUyeEkle);
-            this.Controls.Add(this.materialLabel8);
-            this.Controls.Add(this.materialLabel7);
-            this.Controls.Add(this.materialLabel6);
-            this.Controls.Add(this.materialLabel5);
-            this.Controls.Add(this.materialLabel4);
-            this.Controls.Add(this.materialLabel3);
-            this.Controls.Add(this.materialLabel2);
-            this.Controls.Add(this.materialLabel1);
             this.Name = "UyeEklefrm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Üye Ekleme Sayfası";
             this.Load += new System.EventHandler(this.UyeEklefrm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -262,23 +252,24 @@
         }
 
         #endregion
-        private MaterialSkin.Controls.MaterialLabel materialLabel1;
-        private MaterialSkin.Controls.MaterialLabel materialLabel2;
-        private MaterialSkin.Controls.MaterialLabel materialLabel3;
-        private MaterialSkin.Controls.MaterialLabel materialLabel4;
-        private MaterialSkin.Controls.MaterialLabel materialLabel5;
-        private MaterialSkin.Controls.MaterialLabel materialLabel6;
-        private MaterialSkin.Controls.MaterialLabel materialLabel7;
-        private MaterialSkin.Controls.MaterialLabel materialLabel8;
-        private MaterialSkin.Controls.MaterialButton btnUyeEkle;
-        private MaterialSkin.Controls.MaterialButton btnİptal;
-        private MaterialSkin.Controls.MaterialTextBox txtTc;
-        private MaterialSkin.Controls.MaterialTextBox txtAdSoyad;
-        private MaterialSkin.Controls.MaterialTextBox txtYas;
-        private MaterialSkin.Controls.MaterialTextBox txtTelefon;
-        private MaterialSkin.Controls.MaterialTextBox txtAdres;
-        private MaterialSkin.Controls.MaterialTextBox txtEmail;
-        private MaterialSkin.Controls.MaterialTextBox txtOkunanSayi;
-        private MaterialSkin.Controls.MaterialComboBox comboCinsiyet;
+
+        private System.Windows.Forms.TextBox txtTc;
+        private System.Windows.Forms.TextBox txtAdSoyad;
+        private System.Windows.Forms.TextBox txtYas;
+        private System.Windows.Forms.TextBox txtTelefon;
+        private System.Windows.Forms.TextBox txtAdres;
+        private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.TextBox txtOkunanSayi;
+        private System.Windows.Forms.ComboBox comboCinsiyet;
+        private System.Windows.Forms.Button btnUyeEkle;
+        private System.Windows.Forms.Button btnİptal;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
     }
 }

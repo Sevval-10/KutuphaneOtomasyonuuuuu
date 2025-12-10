@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
-            this.lblEnCokOkuyan = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
-            this.lblEnAzOkuyan = new MaterialSkin.Controls.MaterialLabel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -40,69 +40,67 @@
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(115, 231);
+            this.dataGridView1.Location = new System.Drawing.Point(78, 121);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(941, 385);
+            this.dataGridView1.Size = new System.Drawing.Size(997, 424);
             this.dataGridView1.TabIndex = 0;
             // 
-            // materialLabel1
+            // label1
             // 
-            this.materialLabel1.AutoSize = true;
-            this.materialLabel1.Depth = 0;
-            this.materialLabel1.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel1.Location = new System.Drawing.Point(299, 109);
-            this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel1.Name = "materialLabel1";
-            this.materialLabel1.Size = new System.Drawing.Size(192, 19);
-            this.materialLabel1.TabIndex = 5;
-            this.materialLabel1.Text = "En Çok Kitap Okuyan Üye =";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label1.Location = new System.Drawing.Point(399, 41);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(224, 18);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "En Çok Kitap Okuyan Üye ->";
             // 
-            // lblEnCokOkuyan
+            // label2
             // 
-            this.lblEnCokOkuyan.AutoSize = true;
-            this.lblEnCokOkuyan.Depth = 0;
-            this.lblEnCokOkuyan.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.lblEnCokOkuyan.Location = new System.Drawing.Point(600, 109);
-            this.lblEnCokOkuyan.MouseState = MaterialSkin.MouseState.HOVER;
-            this.lblEnCokOkuyan.Name = "lblEnCokOkuyan";
-            this.lblEnCokOkuyan.Size = new System.Drawing.Size(1, 0);
-            this.lblEnCokOkuyan.TabIndex = 6;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label2.Location = new System.Drawing.Point(643, 41);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(52, 18);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "label2";
             // 
-            // materialLabel3
+            // label3
             // 
-            this.materialLabel3.AutoSize = true;
-            this.materialLabel3.Depth = 0;
-            this.materialLabel3.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel3.Location = new System.Drawing.Point(299, 165);
-            this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel3.Name = "materialLabel3";
-            this.materialLabel3.Size = new System.Drawing.Size(183, 19);
-            this.materialLabel3.TabIndex = 7;
-            this.materialLabel3.Text = "En Az Kitap Okuyan Üye =";
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label3.Location = new System.Drawing.Point(408, 73);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(212, 18);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "En Az Kitap Okuyan Üye ->";
             // 
-            // lblEnAzOkuyan
+            // label4
             // 
-            this.lblEnAzOkuyan.AutoSize = true;
-            this.lblEnAzOkuyan.Depth = 0;
-            this.lblEnAzOkuyan.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.lblEnAzOkuyan.Location = new System.Drawing.Point(600, 165);
-            this.lblEnAzOkuyan.MouseState = MaterialSkin.MouseState.HOVER;
-            this.lblEnAzOkuyan.Name = "lblEnAzOkuyan";
-            this.lblEnAzOkuyan.Size = new System.Drawing.Size(1, 0);
-            this.lblEnAzOkuyan.TabIndex = 8;
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label4.Location = new System.Drawing.Point(643, 73);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(52, 18);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "label4";
             // 
             // Sıralamafrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(1217, 638);
-            this.Controls.Add(this.lblEnAzOkuyan);
-            this.Controls.Add(this.materialLabel3);
-            this.Controls.Add(this.lblEnCokOkuyan);
-            this.Controls.Add(this.materialLabel1);
+            this.BackColor = System.Drawing.Color.LightPink;
+            this.ClientSize = new System.Drawing.Size(1153, 598);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
             this.Name = "Sıralamafrm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -117,9 +115,9 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridView1;
-        private MaterialSkin.Controls.MaterialLabel materialLabel1;
-        private MaterialSkin.Controls.MaterialLabel lblEnCokOkuyan;
-        private MaterialSkin.Controls.MaterialLabel materialLabel3;
-        private MaterialSkin.Controls.MaterialLabel lblEnAzOkuyan;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }
